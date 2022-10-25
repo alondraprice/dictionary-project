@@ -7,7 +7,7 @@ function App() {
       <h1>Dictionary</h1>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-      <a href="#" className="btn btn-primary shadow">Hello</a>
+      <button type="button" className="btn btn-outline-info shadow">Hello</button>
       </header>
     </div>
   );
