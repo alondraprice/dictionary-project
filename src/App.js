@@ -1,16 +1,26 @@
 import logo from './logobook.png';
 import './App.css';
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>Dictionary</h1>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      <button type="button" className="btn btn-outline-info shadow">Hello</button>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <button type="button" className="btn btn-outline-info shadow">
+            Hello
+          </button>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <small>Coded by Alondra Price</small>
+        </footer>
+      </div>
     </div>
   );
 }
 
-export default App;
+
