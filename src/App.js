@@ -13,7 +13,7 @@ export default function App() {
           </button>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
           <small>Coded by Alondra Price</small>
