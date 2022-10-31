@@ -9,7 +9,7 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <button type="button" className="btn btn-outline-info shadow">
-            Hello
+            DICTIONARY
           </button>
         </header>
         <main>
